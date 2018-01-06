@@ -13,7 +13,7 @@ delta = 0.14
 kappa = 15
 
 # convert input image
-im = misc.imread('lena_noisy.jpg', flatten=True)
+im = misc.imread(image_file, flatten=True)
 im = im.astype('float64')
 
 # initial condition
